@@ -1,0 +1,35 @@
+.library-container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #f9fdfb;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.05);
+}
+
+.suggestion-btn {
+  padding: 6px 14px;
+  background-color: #dcfce7;
+  color: #166534;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.suggestion-btn:hover {
+  background-color: #bbf7d0;
+}
+
+.book-card {
+  background-color: #f0fdf4;
+  border: 1px solid #d1fae5;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.15);
+}
